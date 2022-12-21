@@ -37,7 +37,7 @@ export const Content = () => {
             {course.parts != null && (
                 <div>
                 {course.parts.map((part => (
-                    <p>{part.part}. Total exercicies: {part.exercicies}</p>
+                    <p key={part.id}>{part.part}. Total exercicies: {part.exercicies}</p>
                 )))}
                 <p>{total.mensege} {TotalExercicies()}</p>
                 </div>

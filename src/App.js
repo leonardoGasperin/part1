@@ -1,8 +1,16 @@
+import { Anecdotes } from "./module/Anecdotes";
 import Content from "./module/Course";
+import Feedback from "./module/GiveFeedback";
 
 function App() {
   return (
-    <Content/>
+    <div>
+      <Content/>
+      <br></br>
+      <Feedback/>
+      <br></br>
+      <Anecdotes/>
+    </div>
   );
 }
 
