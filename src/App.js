@@ -1,14 +1,4 @@
 function App() {
-  /*const course = 'Half Stack application development'
-  const part1 = 'Fundamentals of React'
-  const exercicies1 = 10
-  const part2 = 'Using props to pass data'
-  const exercicies2 = 7
-  const part3 = 'State of a component'
-  const exercicies3 = 14
-*/
-
-
   const course = {
     name : 'Half Stack application development',
     parts: [
@@ -35,7 +25,7 @@ function App() {
   });
 
   return total
-}
+  }
   const total = {
     mensege: 'Number of exercises:'
    }
